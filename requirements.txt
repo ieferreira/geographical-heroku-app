@@ -1,4 +1,5 @@
 streamlit
 pyproj
-numpy
 pandas
+folium
+streamlit_folium
