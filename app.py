@@ -29,7 +29,7 @@ if code1 and code2:
         # for i in transformer.itransform(puntos):
         #     nuevas_coordenadas.append(i)
         for pt in transformer.itransform(puntos):
-            nuevas_coordenadas.append(pt)
+            nuevas_coordenadas.append(((round(pt[0], 2)), round(pt[1], 2)))
 
         df = pd.DataFrame({"Input Coordinates (lat/lon)": puntos, "Output Coordinates (lat/lon)": nuevas_coordenadas})
         st.write(df)
