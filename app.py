@@ -13,7 +13,7 @@ def local_css(file_name):
 
 local_css("style.css")
 
-st.markdown("""## Coordinate conversion (v0.3)""")
+st.markdown("""## Coordinate conversion (v0.4)""")
 st.markdown("An app to facilitate quick conversion between geographical coordinates")
 
 
